@@ -1,0 +1,63 @@
+.form-section {
+  min-height: 80vh;
+  width: 80%;
+  @include flex(center, center, row);
+  margin: 5rem 10rem;
+
+  form {
+    @include flex(center, center, column);
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(52, 172, 224, 0.5);
+    padding: 2rem 4rem;
+    height: 500px;
+
+    border-radius: 2rem;
+    input,
+    label {
+      margin: 1rem;
+      border: none;
+      &:focus {
+        outline: 0;
+      }
+    }
+    input {
+      border: 1px solid rgba(51, 217, 178, 1);
+      border-radius: 5px;
+      padding: 0.5rem 2rem;
+      color: #594966;
+    }
+    .text {
+      margin: 2rem;
+      opacity: 0.5;
+    }
+    button {
+      margin-top: 1rem;
+      border: 0;
+      background-color: #615070;
+      color: #f1eef3;
+      padding: .7rem 3rem;
+      border-radius: 5px;
+      width: 94%;
+      &:active {
+        transform: scale(0.96);
+      }
+    }
+  }
+}
+
+footer {
+  @include flex(space-between, center, row);
+  background-color: #615070;
+  color: white;
+  letter-spacing: 2px;
+  min-height: 10vh;
+  flex-wrap: wrap;
+  h4 {
+    margin-left: 3rem;
+    flex: 1 1 40rem;
+  }
+  ul {
+    @include flex(space-around, center, row);
+    flex: 1 1 40rem;
+  }
+}
