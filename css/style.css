@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 li,
@@ -23,7 +23,7 @@ label,
 input,
 a,
 p {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -70,6 +70,7 @@ nav {
   min-height: 10vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-weight: 500;
 }
 
 nav .logo {
@@ -180,7 +181,7 @@ nav ul {
 }
 
 .active {
-  background: #615070;
+  background: #3f3d56;
   color: white;
   padding: 1rem 2rem;
   border-radius: 3rem;
@@ -424,7 +425,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #615070;
+  background-color: #3f3d56;
   color: white;
   letter-spacing: 2px;
   min-height: 10vh;

@@ -8,6 +8,7 @@ nav {
   width: 60%;
   min-height: 10vh;
   flex-wrap: wrap;
+  font-weight: 500;
   .logo {
     @include flex(flex-start, center, row);
     flex: 1 1 20rem;
@@ -68,7 +69,7 @@ nav {
 }
 
 .active {
-  background: #615070;
+  background: rgb(63, 61, 86);
   color: white;
   padding: 1rem 2rem;
   border-radius: 3rem;

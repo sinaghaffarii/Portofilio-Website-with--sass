@@ -47,7 +47,7 @@
 
 footer {
   @include flex(space-between, center, row);
-  background-color: #615070;
+  background-color: rgb(63, 61, 86);
   color: white;
   letter-spacing: 2px;
   min-height: 10vh;
